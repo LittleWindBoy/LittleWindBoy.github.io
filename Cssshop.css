@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding:0;
+	font-family: 'Lato', sans-serif;
+}
+.wrapper{
+	width: 1920px;
+	height: 960px;
+	background-color: #D2D7CC;
+	margin: 0 auto;
+}
+.content{
+	margin: 0 auto;
+	background:url("simon-berger-aZjw7xI3QAA-unsplash (1).jpg");
+	height: 900px;
+	background-size: cover;
+	background-position: center;
+}
+.header{
+	width: 100%;
+	height: 30px;
+	background:#0B0909;
+}
+.qcontact{
+	width: 35%;
+	height:30px;
+	float:left;
+}
+.qcontact ul{
+	list-style-type: none;
+	float:right;
+	padding-right: 30px;
+}
+.qcontact li{
+	position: relative;
+}
+.qcontact ul li{
+	display: inline-block;
+	padding-left: 15px;
+}
+.qcontact ul li a{
+	text-decoration: none;
+	color: white;
+}
+.qcontact ul li ul li{
+	display: inline;
+	text-align: center;
+	color: white;
+	padding: 15px 30px;
+}
+.qcontact ul li ul{
+	position: relative;
+	height: 0px;
+	visibility: hidden;
+	overflow: hidden;
+	border-radius: 5px;
+	background: black;
+	margin-top: 10px;
+	
+}
+.qcontact ul li:hover ul{
+	visibility: visible;
+	height: 150px;
+}
+.qicon{
+	width: 35%;
+	height: 30px;
+	float:right;
+}
+.qicon ul{
+	list-style-type: none;
+	font-size: 25px;
+	float: left;
+}
+.qicon ul li{
+	display: inline;
+	margin-right:30px;
+	color: white;
+}
+.qicon ul li a{
+	text-decoration: none;
+	color: white;
+}
+.banner{
+	
+}
+.logo{
+	width: 35%;
+	height: 50px;
+	float:left;
+}
+.menu{
+	width: 35%;
+	height: 50px;
+	float: right;
+	font-size: 14pt;
+}
+.attention{
+	width: 30%;
+	height: 50px;
+}
+.menu{
+	margin-top: 30px;
+}
+.menu ul{
+	list-style-type: none;
+	margin-top: 10px;
+}
+.menu li{
+	position: relative;
+}
+.menu ul li ul{
+	position: absolute;
+	visibility: hidden;
+	overflow: hidden;
+	height: 0px;
+	transition: all 0.8s linear;
+	margin-top: 20px;
+}
+#menu li {
+	margin-top:15px;
+}
+.menu ul li:hover ul{
+	visibility: visible;
+	height: 150px;
+	right: -26px;
+}
+.menu ul li{
+	display: inline;
+	margin-right: 15px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: black;
+}
+.logo{
+	margin-top: 30px;
+}
+.insidel{
+	margin-right: 150px;
+	font-size: 14pt;
+}
+.logo img{
+	width: 50px;
+	height: 50px;
+	float: right;
+	padding-right: 30px;
+}
+.logo h3{
+	float: right;
+	padding-top: 15px;
+}
+.attention{
+	width: 100%;
+	text-align: center;
+	padding-top: 400px;
+	color: white;
+	font-size: 36pt;
+	letter-spacing: 5px;
+}
